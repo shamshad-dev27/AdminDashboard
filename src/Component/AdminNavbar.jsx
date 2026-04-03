@@ -77,7 +77,7 @@ function AdminNavbar() {
             </li>
             <li>
               <NavLink
-                to="/schedule"
+                to="/"
                 className={({ isActive }) =>
                   `flex items-center space-x-2 px-3 py-2 rounded-full transition ${isActive
                     ? "bg-teal-500 text-white"
@@ -91,7 +91,7 @@ function AdminNavbar() {
             </li>
             <li>
               <NavLink
-                to="/message"
+                to="/"
                 className={({ isActive }) =>
                   `flex items-center space-x-2 px-3 py-2 rounded-full transition ${isActive
                     ? "bg-teal-500 text-white"
@@ -105,7 +105,7 @@ function AdminNavbar() {
             </li>
             <li>
               <NavLink
-                to="/transaction"
+                to="/"
                 className={({ isActive }) =>
                   `flex items-center space-x-2 px-3 py-2 rounded-full transition ${isActive
                     ? "bg-teal-500 text-white"
@@ -141,7 +141,7 @@ function AdminNavbar() {
       </div>
 
       {/* navbar  */}
-      <nav className={`${hid ? "hidden" : "block"} flex  justify-between px-5 items-center absolute top-[18px]  w-[100%] h-[70px] bg-white rounded-[70px] shadow-[0_0_1px_black] space-x-4`}>
+      <nav className={`${hid ? "hidden" : "block"} flex  justify-between px-5 items-center absolute top-[18px]  w-[98%] h-[70px] bg-white rounded-[70px] shadow-[0_0_1px_black] mx-4 space-x-4`}>
         <div className="flex items-center">
           <img src={logo} alt="logo" className="h-12 md:w-52 md:h-14 object-contain" />
         </div>
@@ -173,7 +173,7 @@ function AdminNavbar() {
           </NavLink>
 
           <NavLink
-            to="/schedule"
+            to="/"
             className={({ isActive }) =>
               `flex items-center space-x-2 px-3 py-2 rounded-full transition ${isActive
                 ? "bg-teal-500 text-white"
@@ -186,7 +186,7 @@ function AdminNavbar() {
           </NavLink>
 
           <NavLink
-            to="/message"
+            to="/"
             className={({ isActive }) =>
               `flex items-center space-x-2 px-3 py-2 rounded-full transition ${isActive
                 ? "bg-teal-500 text-white"
@@ -199,7 +199,7 @@ function AdminNavbar() {
           </NavLink>
 
           <NavLink
-            to="/transaction"
+            to="/"
             className={({ isActive }) =>
               `flex items-center space-x-2 px-3 py-2 rounded-full transition ${isActive
                 ? "bg-teal-500 text-white"
